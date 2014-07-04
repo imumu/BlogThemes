@@ -1,0 +1,11 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; <%= date(new Date(), 'YYYY') %> 方克神思 || <%= config.author || config.title %><br>
+      <a href="http://github.com/functions" target="_blank" rel="external nofollow">http://github.com/functions</a>.
+    </div>
+  </div>
+</footer>
