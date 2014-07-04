@@ -1,4 +1,4 @@
 BlogThemes
 ==========
 
-hexo博客的主题
+hexo博客的主题.
